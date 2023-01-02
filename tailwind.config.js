@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./dist/*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Mont: ['Montserrat'],
+        Poppins: ['Poppins']
+      }
+    },
   },
   plugins: [],
 }
