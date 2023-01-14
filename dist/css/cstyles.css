@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+.bg-header {
+  background: url(/dist/img/img1080.png) center center no-repeat;
+  background-attachment: fixed;
+}
+
+.res-font {
+  font-size: 8vw;
+}
+
+.res-font2 {
+  font-size: 2vw;
+}
+
+.w-1vw {
+  width: 1vw;
+}
+
+.w-2vw {
+  width: 2vw;
+}
+
+.w-3vw {
+  width: 3vw;
+}
+
+.w-4vw {
+  width: 4vw;
+}
+
+.w-5vw {
+  width: 5vw;
+}
+
+.w-6vw {
+  width: 6vw;
+}
+
+.w-7vw {
+  width: 7vw;
+}
+
+.w-8vw {
+  width: 8vw;
+}
+
+.w-9vw {
+  width: 9vw;
+}
+
+.w-10vw {
+  width: 10vw;
+}
+
+.w-11vw {
+  width: 11vw;
+}
+
+.w-12vw {
+  width: 12vw;
+}
+
+.w-14vw {
+  width: 14vw;
+}
+
+.w-16vw {
+  width: 16vw;
+}
+
+.w-18vw {
+  width: 18vw;
+}
+
+.w-20w {
+  width: 20vw;
+}
+
+.w-24vw {
+  width: 24vw;
+}
+
+.h-1vw {
+  height: 1vw;
+}
+
+.h-2vw {
+  height: 2vw;
+}
+
+.h-3vw {
+  height: 3vw;
+}
+
+.h-4vw {
+  height: 4vw;
+}
+
+.h-5vw {
+  height: 5vw;
+}
+
+.h-6vw {
+  height: 6vw;
+}
+
+.h-7vw {
+  height: 7vw;
+}
+
+.h-8vw {
+  height: 8vw;
+}
+
+.h-9vw {
+  height: 9vw;
+}
+
+.h-10vw {
+  height: 10vw;
+}
+
+.h-11vw {
+  height: 11vw;
+}
+
+.h-12vw {
+  height: 12vw;
+}
+
+.h-14vw {
+  height: 14vw;
+}
+
+.h-16vw {
+  height: 16vw;
+}
+
+.h-18vw {
+  height: 18vw;
+}
+
+.h-20w {
+  height: 20vw;
+}
+
+.h-24vw {
+  height: 24vw;
+}
+
+.translate-y-7vw {
+  transform: translateY(7vw);
+}
+
+/* CSS */
+.button-48 {
+  appearance: none;
+  border-width: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin: 0;
+  opacity: 1;
+  outline: 0;
+  padding: 1em 1.5em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: rgb(15, 15, 15);
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+  opacity: 0.4;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  opacity: 0.4;
+}
+
+.button-48:after {
+  background-color: rgb(15, 15, 15);
+  opacity: 0.4;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+  opacity: 1;
+}
