@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-zinc-800">
+    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 sticky">
+        <header class="justify-between flex">
+        <div class="flex items-center w-10 max-lg:py-3.5"><a href="index.html" class="ml-10 text-xl font-semibold text-slate-200">4Craft</a></div>
+        <div class="cursor-pointer my-3.5 mx-2 hidden max-lg:block lg:flex lg:justify-center" id="menu-button">
+            <div class="w-8 h-1 bg-slate-100 my-1 max-lg:block hidden"></div>
+            <div class="w-8 h-1 bg-slate-100 my-1 max-lg:block hidden"></div>
+            <div class="w-8 h-1 bg-slate-100 my-1 max-lg:block hidden"></div>
+        </div>
+        <div class="flex px-14 justify-end h-auto py-4 max-lg:hidden font-Mont">
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="/about" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">About</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="/contact" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Contact Us</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="/discord" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Discord</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="/server-ip" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Server IP</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="/live-map" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Live Map</a></li>
+            </ul>
+        </div>
+    </header>
+    </nav>
+
+    <div class="w-screen h-48 bg-zinc-800 absolute top-0 my-14 z-10 hidden" id="dmenu"></div>
+    
+    <ul class="w-auto items-center open:list-item left-1/2 absolute -translate-x-1/2 my-5 hidden z-20" id="menu">
+        <li class="my-1"><a href="about.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">About</a></li>
+        <li class="my-1"><a href="contact.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Contact Us</a></li>
+        <li class="my-1"><a href="discord.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Discord</a></li>
+        <li class="my-1"><a href="server-ip.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Server IP</a></li>
+        <li class="my-1"><a href="live-map.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Live Map</a></li>
+    </ul>
+
+<script src="/script.js"></script>
+</body>
+</html>

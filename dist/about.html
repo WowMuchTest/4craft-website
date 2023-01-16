@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="/dist/img/favicon.png">
+    <script>document.documentElement.classList.add('js')</script>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cstyles.css">
 </head>
-<body class="bg-zinc-800">
-    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 sticky">
+<body class="bg-zinc-800 overflow-x-hidden">
+    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 sticky z-50">
         <header class="justify-between flex">
         <div class="flex items-center w-10 max-lg:py-3.5"><a href="index.html" class="ml-10 text-xl font-semibold text-slate-200">4Craft</a></div>
         <div class="cursor-pointer my-3.5 mx-2 hidden max-lg:block lg:flex lg:justify-center" id="menu-button">
@@ -36,6 +39,8 @@
     </header>
     </nav>
 
+
+
     <div class="w-screen h-48 bg-zinc-800 absolute top-0 my-14 z-10 hidden" id="dmenu"></div>
     
     <ul class="w-auto items-center open:list-item left-1/2 absolute -translate-x-1/2 my-5 hidden z-20" id="menu">
@@ -45,6 +50,46 @@
         <li class="my-1"><a href="server-ip.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Server IP</a></li>
         <li class="my-1"><a href="live-map.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Live Map</a></li>
     </ul>
+
+    <img src="/dist/img/img2.png" alt="">
+
+    <div class="w-screen h-screen flex justify-center translate-y-28 absolute z-10">
+        <div class="w-1/2 h-0.5 opacity-50 bg-slate-100"></div>
+    </div>
+
+
+    <div class="-translate-y-12">
+    <section class="w-screen h-96 z-10 bg-zinc-800 flex items-center justify-center content-between">
+        <div class="w-1/2 h-full flex translate-x-96 items-end fadeDiv hide max-2xl:justify-center justify-end bg-zinc-800 max-sm:w-screen">
+            <img src="/dist/img/img1.png" alt="" class="md:h-1/2 md:w-auto max-md:w-screen max-2xl:justify-center max-2xl:items">
+            
+        </div>
+        <div class="absolute flex w-1/2 justify-start fadeDiv hide content-between max-2xl:justify-center max-sm:w-screen">
+            <div class="w-1/2 max-2xl:translate-y-44 max-2xl:justify-center max-md:w-screen">
+            <p class="translate-y-24 text-center max-2xl:absolute max-2xl:translate-y-7 text-slate-200">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat lacinia ullamcorper. Donec laoreet turpis maximus, rhoncus felis a, 
+                tempus nisl. Aliquam mattis mattis aliquet. Suspendisse potenti. 
+            </div>
+            </p>
+        </div>
+
+    </section>
+    <section class="w-screen h-96 flex bg-zinc-800 text-center justify-center max-2xl:translate-y-32">
+        <div class="w-1/2 h-full flex 2xl:justify-start max-2xl:justify-center items-center fadeDiv hide max-sm:w-screen">
+            <img src="/dist/img/img3.png" alt="" class="md:h-1/2 md:w-auto max-md:w-screen max-2xl:justify-center ">
+            <p class="px-10 py-2 max-2xl:translate-y-56 items-baseline justify-center max-2xl:absolute text-slate-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat lacinia ullamcorper. Donec laoreet turpis maximus, rhoncus felis a, 
+                tempus nisl. Aliquam mattis mattis aliquet. Suspendisse potenti. Mauris nunc sem, ultrices non enim et, egestas varius erat. Morbi eget luctus magna. 
+                Praesent lacus massa, iaculis quis eros nec, tristique feugiat urna.
+            </p>
+        </div>
+    </section>
+</div>
+
+<div class="w-screen h-96 bottom-12 bg-zinc-800 flex-col">
+    <div class="w-sc"></div>
+</div>
+
+
 
 <script src="/dist/script.js"></script>
 </body>
