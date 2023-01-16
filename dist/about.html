@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="icon" type="image/x-icon" href="/dist/img/favicon.png">
-    <script>document.documentElement.classList.add('js')</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/cstyles.css">
 </head>
 <body class="bg-zinc-800 overflow-x-hidden">
-    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 sticky z-50">
+    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 fixed z-20">
         <header class="justify-between flex">
         <div class="flex items-center w-10 max-lg:py-3.5"><a href="index.html" class="ml-10 text-xl font-semibold text-slate-200">4Craft</a></div>
         <div class="cursor-pointer my-3.5 mx-2 hidden max-lg:block lg:flex lg:justify-center" id="menu-button">
@@ -39,11 +39,10 @@
     </header>
     </nav>
 
-
-
-    <div class="w-screen h-48 bg-zinc-800 absolute top-0 my-14 z-10 hidden" id="dmenu"></div>
+    <div class="w-screen h-48 bg-zinc-800 absolute top-0 my-14 z-10 hidden" id="dmenu">
+    </div>
     
-    <ul class="w-auto items-center open:list-item left-1/2 absolute -translate-x-1/2 my-5 hidden z-20" id="menu">
+    <ul class="w-auto items-center open:list-item left-1/2 absolute -translate-x-1/2 my-3 hidden z-20" id="menu">
         <li class="my-1"><a href="about.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">About</a></li>
         <li class="my-1"><a href="contact.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Contact Us</a></li>
         <li class="my-1"><a href="discord.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Discord</a></li>
@@ -51,14 +50,32 @@
         <li class="my-1"><a href="live-map.html" class="text-slate-200 text-lg font-normal transition duration-500 hover:text-slate-400 ease-in-out my-5">Live Map</a></li>
     </ul>
 
-    <img src="/dist/img/img2.png" alt="">
+    <div class="flex absolute items-center justify-center z-10 w-screen h-screen">
+        <h1 class="text-9xl text-slate-200 font-semibold -translate-y-16 max-sm:text-7xl">About</h1>
+        </div>
 
-    <div class="w-screen h-screen flex justify-center translate-y-28 absolute z-10">
-        <div class="w-1/2 h-0.5 opacity-50 bg-slate-100"></div>
+    <header
+  class="flex items-center justify-center h-screen mb-12 bg-fixed bg-center bg-cover custom-img brightness-50">
+</header>
+
+
+
+
+
+    <!--<div class="flex justify-center items-center z-10">
+    <img src="/dist/img/img2.png" alt="" class="brightness-50 w-full h-auto">
+    <div class="flex items-center justify-center absolute -translate-y-1/2 max-sm:-translate-y-16">
+        <h1 class="text-slate-200 text-9xl max-sm:text-5xl font-semibold">About</h1>
+    </div>
+</div> -->
+    
+
+<div class="w-screen h-1/2  flex justify-center absolute z-10 translate-y-16">
+        <div class="w-1/2 h-0.5 opacity-50 bg-slate-100 max-md:hidden"></div>
     </div>
 
 
-    <div class="-translate-y-12">
+
     <section class="w-screen h-96 z-10 bg-zinc-800 flex items-center justify-center content-between">
         <div class="w-1/2 h-full flex translate-x-96 items-end fadeDiv hide max-2xl:justify-center justify-end bg-zinc-800 max-sm:w-screen">
             <img src="/dist/img/img1.png" alt="" class="md:h-1/2 md:w-auto max-md:w-screen max-2xl:justify-center max-2xl:items">
@@ -83,13 +100,24 @@
             </p>
         </div>
     </section>
-</div>
-
-<div class="w-screen h-96 bottom-12 bg-zinc-800 flex-col">
-    <div class="w-sc"></div>
-</div>
 
 
+
+    <div class="bg-zinc-900 w-screen absolute h-48 translate-y-full max-2xl:translate-y-96 flex justify-center items-center">
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 hover cursor-pointer">
+            <img src="/dist/img/github.svg" alt="" class="scale-125">
+        </div>
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer">
+            <img src="/dist/img/youtube.svg" alt="" class="scale-125">
+        </div>
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer">
+                <img src="/dist/img/twitter.svg" alt="" class="scale-125">
+        </div>
+        <a href="#"><div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer">
+            <img src="/dist/img/tiktok.svg" alt="" class="scale-125"></a>
+        </div>
+        <h4 class="translate-y-12 text-slate-200 opacity-10 absolute">4craft © 2023</h4>
+    </div>
 
 <script src="/dist/script.js"></script>
 </body>

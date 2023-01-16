@@ -254,9 +254,14 @@
  
 ::-webkit-scrollbar-thumb {
   background-color: rgb(150 150 150); 
-  border-radius: 10px;
+  border-radius: 0.5vw;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #b30000; 
 }
+
+.custom-img {
+  background-image: url("/dist/img/img2.png");
+}
+

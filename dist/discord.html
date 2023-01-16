@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="css/cstyles.css">
     <title>Discord</title>
 </head>
-<body class="bg-zinc-800">
-    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 sticky">
+<body class="bg-zinc-800 overflow-x-hidden">
+    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 fixed">
         <header class="justify-between flex">
         <div class="flex items-center w-10 max-lg:py-3.5"><a href="index.html" class="ml-10 text-xl font-semibold text-slate-200">4Craft</a></div>
         <div class="cursor-pointer my-3.5 mx-2 hidden max-lg:block lg:flex lg:justify-center" id="menu-button">
@@ -56,6 +56,21 @@
             <iframe class="max-lg:translate-y-1/2" src="https://discord.com/widget?id=1059280331095687288&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
     </div>
 
+    <div class="bg-zinc-900 w-screen absolute h-48 translate-y-full max-2xl:translate-y-96 flex justify-center items-center">
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 hover cursor-pointer">
+            <img src="/dist/img/github.svg" alt="" class="scale-125">
+        </div>
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer">
+            <img src="/dist/img/youtube.svg" alt="" class="scale-125">
+        </div>
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer">
+            <img src="/dist/img/twitter.svg" alt="" class="scale-125">
+        </div>
+        <a href="#"><div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer">
+            <img src="/dist/img/tiktok.svg" alt="" class="scale-125">
+        </div></a>
+        <h4 class="translate-y-12 text-slate-200 opacity-10 absolute">4craft © 2023</h4>
+    </div>
 
 
 <script src="/dist/script.js"></script>
