@@ -225,9 +225,7 @@
   }
 }
 
-.craft {
-  animation: 0.5s ease-out 0s 1 slideInLeft;
-}
+
 
 .hide {
   opacity: 0;
@@ -265,3 +263,24 @@
   background-image: url("/dist/img/img2.png");
 }
 
+.translate-x-7o8 {
+  transform: translateX(87.5%);
+}
+
+.change .bar1 {
+  transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.slide {
+  transform: translateX(200%);
+}
+
+.translatex2x {
+  transform: translateX(200%);
+}

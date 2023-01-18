@@ -1,11 +1,13 @@
-const button = document.querySelector('#menu-button'); // Hamburger Icon
-const menu = document.querySelector('#menu'); // Menu
-const dbutt = document.querySelector('#dmenu');
+let menu = document.getElementById('menu')
+let men = document.getElementById('men')
+const rect = menu.getBoundingClientRect()
+let mendiv = document.getElementById('mendiv')
 
-button.addEventListener('click', () => {
-  menu.classList.toggle('hidden');
-  dbutt.classList.toggle('hidden');
-});
+function clicked(x) {
+  x.classList.toggle('change')
+  menu.classList.toggle('slide')
+  mendiv.classList.toggle('pointer-events-none')
+}
 
 const sectionOne = document.querySelector('.section1')
 const sections = document.querySelectorAll("section")
