@@ -3,11 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Refresh" content="0; url='/dist/home.html'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/cstyles.css">
+    <title>4Craft</title>
     <link rel="icon" type="image/x-icon" href="/dist/img/favicon.png">
-    <title>Document</title>
 </head>
-<body>
+<body class="bg-zinc-800 overflow-hidden">
+    <nav class="min-w-full h-14 max-lg:sticky bg-zinc-900 top-0 sticky z-30">
+        <header class="justify-between flex">
+        <div class="flex items-end  w-10 max-lg:py-3.5 -translate-y-3.5"><a href="index.html" class="ml-10 text-xl font-semibold text-slate-200 craft">4Craft</a></div>
+        <div class="w-1/2 h-14 fixed flex translate-x-7o8 justify-end top-0 lg:hidden max-lg">
+                <ul class="py-2 cursor-pointer" onclick="clicked(this)">
+                    <div class="bar1 bg-slate-50 w-[35px] h-[5px] my-[6px] justify-end duration-500 bar1"></div>
+                    <div class="bar2 bg-slate-50 w-[35px] h-[5px] my-[6px] justify-end duration-500 bar2"></div>
+                    <div class="bar3 bg-slate-50 w-[35px] h-[5px] my-[6px] justify-end duration-500 bar3"></div>
+                </ul> 
+      </div>
+        <div class="flex px-14 justify-end h-auto py-4 max-lg:hidden font-Mont">
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="about.html" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">About</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="contact.html" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Contact Us</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="discord.html" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Discord</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="server-ip.html" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Join</a></li>
+            </ul>
+            <ul class="px-10 transition duration-300 hover:-translate-y-0.5">
+                <li><a href="live-map.html" class="text-slate-200 text-base font-normal transition duration-500 hover:opacity-60 ease-in-out">Live Map</a></li>
+            </ul>
+        </div>
+    </header>
+    </nav>
+
+    <div class="w-screen h-48 bg-zinc-800 absolute top-0 my-14 z-10 hidden" id="dmenu">
+    </div>
     
+    <div class="fixed flex w-1/2 items-center justify-end z-50 pointer-events-none" id="mendiv">
+        <div class="w-full h-screen flex justify-start translate-x-full z-50 duration-500 menu -translate-y-1 bg-zinc-900 slide" id="menu">
+            <ul class="px-14 text-xl py-4 text-slate-200 max-[382px]:text-lg">
+                <a href="/dist/about.html"><li class="py-2"><h1>About</h1></li></a>
+                <a href="/dist/contact.html"><li class="py-2"><h1>Contact</h1></li></a>
+                <a href="/dist/discord.html"><li class="py-2"><h1>Discord</h1></li></a>
+                <a href="/dist/server-ip.html"><li class="py-2"><h1>Join</h1></li></a>
+                <a href="/dist/live-map.html"><li class="py-2"><h1>Live Map</h1></li></a>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="absolute flex items-center justify-center w-screen h-screen z-20 pb-48 max-lg:-translate-y-1/4">
+        <h1 class="font-opsans res-font font-semibold text-slate-200 max-lg:-translate-y-6">4Craft</h1>
+        <div class=" border-slate-200 border-4 absolute hover:brightness-75 translate-y-7vw items-center justify-center flex">
+            <a href="/dist/server-ip.html"><button class="button-48" role="button"><span class="text-2xl text-slate-200 font-opensans font-Mont font-semibold max-lg:text-sm">Join Us</span></button></a>
+        </div>
+    </div>
+    <div class="z-10">
+        <img src="/dist/img/img4k.png" alt="" class="blur-sm brightness-75">
+    </div>
+
+    <div class="bg-zinc-900 w-screen absolute h-48 translate-y-full max-2xl:bottom-48 flex justify-center items-center">
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 hover cursor-pointer brightness-100 transition ease-in-out duration-300 hover:brightness-75">
+            <img src="/dist/img/github.svg" alt="" class="scale-125">
+        </div>
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer brightness-100 transition ease-in-out duration-300 hover:brightness-75">
+            <img src="/dist/img/youtube.svg" alt="" class="scale-125">
+        </div>
+        <div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer brightness-100 transition ease-in-out duration-300 hover:brightness-75">
+                <img src="/dist/img/twitter.svg" alt="" class="scale-125">
+        </div>
+        <a href="#"><div class="border-2 border-gray-300 rounded-full h-12 w-12 mx-2 flex items-center justify-center opacity-75 -translate-y-2 cursor-pointer brightness-100 transition ease-in-out duration-300 hover:brightness-75">
+            <img src="/dist/img/tiktok.svg" alt="" class="scale-125"></a>
+        </div>
+        <h4 class="translate-y-12 text-slate-200 opacity-10 absolute">4craft © 2023</h4>
+    </div>
+
+<script src="/dist/script.js"></script>
 </body>
 </html>
