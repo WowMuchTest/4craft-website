@@ -152,6 +152,18 @@
   transform: translateY(7vw);
 }
 
+.ctranslate {
+ transform: translateY(-12rem);
+}
+
+
+
+ @media (min-width: 1200px) {
+  .ctranslate {
+    transform: translateY(-16rem);
+   }
+ }
+
 /* CSS */
 .button-48 {
   appearance: none;
@@ -225,212 +237,6 @@
   }
 }
 
-@keyframes vidani {
-  0% {
-    background-image: url('/dist/img/cssframes/img00.png');
-    animation-delay: 1s;
-  } 1% {
-    background-image: url('/dist/img/cssframes/img01.png');
-  } 2% {
-    background-image: url('/dist/img/cssframes/img02.png');
-  } 3% {
-    background-image: url('/dist/img/cssframes/img03.png');
-  } 4% {
-    background-image: url('/dist/img/cssframes/img04.png');
-  } 5% {
-    background-image: url('/dist/img/cssframes/img05.png');
-  } 6% {
-    background-image: url('/dist/img/cssframes/img06.png');
-  } 7% {
-    background-image: url('/dist/img/cssframes/img07.png');
-  } 8% {
-    background-image: url('/dist/img/cssframes/img08.png');
-  } 9% {
-    background-image: url('/dist/img/cssframes/img09.png');
-  } 10% {
-    background-image: url('/dist/img/cssframes/img10.png');
-  } 11% {
-    background-image: url('/dist/img/cssframes/img11.png');
-  } 12% {
-    background-image: url('/dist/img/cssframes/img12.png');
-  } 13% {
-    background-image: url('/dist/img/cssframes/img13.png');
-  } 14% {
-    background-image: url('/dist/img/cssframes/img14.png');
-  } 15% {
-    background-image: url('/dist/img/cssframes/img15.png');
-  } 16% {
-    background-image: url('/dist/img/cssframes/img16.png');
-  } 17% {
-    background-image: url('/dist/img/cssframes/img17.png');
-  } 18% {
-    background-image: url('/dist/img/cssframes/img18.png');
-  } 19% {
-    background-image: url('/dist/img/cssframes/img19.png');
-  } 20% {
-    background-image: url('/dist/img/cssframes/img20.png');
-  } 21% {
-    background-image: url('/dist/img/cssframes/img21.png');
-  } 22% {
-    background-image: url('/dist/img/cssframes/img22.png');
-  } 23% {
-    background-image: url('/dist/img/cssframes/img23.png');
-  } 24% {
-    background-image: url('/dist/img/cssframes/img24.png');
-  } 25% {
-    background-image: url('/dist/img/cssframes/img25.png');
-  } 26% {
-    background-image: url('/dist/img/cssframes/img26.png');
-  } 27% {
-    background-image: url('/dist/img/cssframes/img27.png');
-  } 28% {
-    background-image: url('/dist/img/cssframes/img28.png');
-  } 29% {
-    background-image: url('/dist/img/cssframes/img29.png');
-  } 30% {
-    background-image: url('/dist/img/cssframes/img30.png');
-  } 31% {
-    background-image: url('/dist/img/cssframes/img31.png');
-  } 32% {
-    background-image: url('/dist/img/cssframes/img32.png');
-  } 33% {
-    background-image: url('/dist/img/cssframes/img33.png');
-  } 34% {
-    background-image: url('/dist/img/cssframes/img34.png');
-  } 35% {
-    background-image: url('/dist/img/cssframes/img35.png');
-  } 36% {
-    background-image: url('/dist/img/cssframes/img36.png');
-  } 37% {
-    background-image: url('/dist/img/cssframes/img37.png');
-  } 38% {
-    background-image: url('/dist/img/cssframes/img38.png');
-  } 39% {
-    background-image: url('/dist/img/cssframes/img39.png');
-  } 40% {
-    background-image: url('/dist/img/cssframes/img40.png');
-  } 41% {
-    background-image: url('/dist/img/cssframes/img41.png');
-  } 42% {
-    background-image: url('/dist/img/cssframes/img42.png');
-  } 43% {
-    background-image: url('/dist/img/cssframes/img43.png');
-  } 44% {
-    background-image: url('/dist/img/cssframes/img44.png');
-  } 45% {
-    background-image: url('/dist/img/cssframes/img45.png');
-  } 46% {
-    background-image: url('/dist/img/cssframes/img46.png');
-  } 47% {
-    background-image: url('/dist/img/cssframes/img47.png');
-  } 48% {
-    background-image: url('/dist/img/cssframes/img48.png');
-  } 49% {
-    background-image: url('/dist/img/cssframes/img49.png');
-  } 50% {
-    background-image: url('/dist/img/cssframes/img50.png');
-  } 51% {
-    background-image: url('/dist/img/cssframes/img51.png');
-  } 52% {
-    background-image: url('/dist/img/cssframes/img52.png');
-  } 53% {
-    background-image: url('/dist/img/cssframes/img53.png');
-  } 54% {
-    background-image: url('/dist/img/cssframes/img54.png');
-  } 55% {
-    background-image: url('/dist/img/cssframes/img55.png');
-  } 56% {
-    background-image: url('/dist/img/cssframes/img56.png');
-  } 57% {
-    background-image: url('/dist/img/cssframes/img57.png');
-  } 58% {
-    background-image: url('/dist/img/cssframes/img58.png');
-  } 59% {
-    background-image: url('/dist/img/cssframes/img59.png');
-  } 60% {
-    background-image: url('/dist/img/cssframes/img60.png');
-  } 61% {
-    background-image: url('/dist/img/cssframes/img61.png');
-  } 62% {
-    background-image: url('/dist/img/cssframes/img62.png');
-  } 63% {
-    background-image: url('/dist/img/cssframes/img63.png');
-  } 64% {
-    background-image: url('/dist/img/cssframes/img64.png');
-  } 65% {
-    background-image: url('/dist/img/cssframes/img65.png');
-  } 66% {
-    background-image: url('/dist/img/cssframes/img66.png');
-  } 67% {
-    background-image: url('/dist/img/cssframes/img67.png');
-  } 68% {
-    background-image: url('/dist/img/cssframes/img68.png');
-  } 69% {
-    background-image: url('/dist/img/cssframes/img69.png');
-  } 70% {
-    background-image: url('/dist/img/cssframes/img70.png');
-  } 71% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 80% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 81% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 82% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 83% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 84% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 85% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 86% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 87% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 88% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 89% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 90% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 91% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 92% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 93% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 94% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 95% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 96% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 97% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 98% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 99% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  } 100% {
-    background-image: url('/dist/img/cssframes/img71.png');
-  }
-}
-
-
-@supports (-webkit-font-smoothing: antialiased) {
-  .custom-img2 {
-    animation: 7s step-start 1 vidani;
-    animation-fill-mode: forwards;
-    animation-delay: 3s;
-  }
-}
-
-@supports (-moz-appearance:none) {
-  .custom-img2 {
-    background-image: url('/dist/img/cssframes/img71.png');
-  }
-}
-
 .hide {
   opacity: 0;
   transform: translateX(-30%);
@@ -464,7 +270,7 @@
 }
 
 .custom-img {
-  background-image: url("/dist/img/img2.png");
+  background-image: url("/dist/img/img2.webp");
 }
 
 .translate-x-7o8 {
@@ -487,4 +293,137 @@
 
 .translatex2x {
   transform: translateX(200%);
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  @keyframes slideBigtoSmall {
+    0% {
+      font-size: 10vw;
+      transform: translateY();
+      text-shadow: 10px 10px #383738;
+    } 100% {
+      font-size: 2.5rem;
+      transform: translateY(-14rem);
+      text-shadow: 7px 7px #383738;
+    }
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  @keyframes slideBigtoSmall {
+    0% {
+      font-size: 10vw;
+      transform: translateY();
+      text-shadow: 15px 15px #383738;
+    } 100% {
+      font-size: 2rem;
+      transform: translateY(-10rem);
+      text-shadow: 7px 7px #383738;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  @keyframes slideBigtoSmall {
+    0% {
+      font-size: 10vw;
+      transform: translateY();
+      text-shadow: 15px 15px #383738;
+    } 100% {
+      font-size: 4rem;
+      transform: translateY(-10rem);
+      text-shadow: 7px 7px #383738;
+    }
+  }
+}
+
+.mcText {
+  font-family: MinecraftiaRegular;
+  font-style: normal;
+  color: #deddde;
+  font-size: 10vw;
+  animation: 2s 1 alternate slideBigtoSmall forwards;
+  animation-delay: 2.2s;
+  padding-top: 15rem;
+  text-shadow: 15px 15px #383738;
+}
+
+
+
+@media only screen and (min-width: 1100px) {
+  @keyframes widen {
+    0% {
+      width: 0;
+    } 100% {
+      width: 50%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  @keyframes widen {
+    0% {
+      width: 0;
+    } 100% {
+      width: 80%;
+    }
+  }
+}
+
+.widhead {
+  width: 0;
+  animation: 0.7s ease-in-out 3.5s alternate widen forwards;
+  opacity: 0.5;
+}
+
+.flcontainer {
+  margin-top: 28rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.litem {
+  flex: 50%;
+}
+
+.ritem {
+  flex: 50%;
+}
+
+@media (max-width: 768px) {
+  .litem, .ritem {
+    flex: 100%;
+  }
+  .flcontainer {
+    margin-top: 22rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+.dshad {
+  text-shadow: 7px 7px #383738;
+}
+
+@keyframes slideOnPageLoad {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  } 100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.toggler {
+  opacity: 0;
+  animation: 1s ease-in-out slideOnPageLoad forwards;
+  animation-delay: 4s;
 }
